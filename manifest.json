@@ -1,0 +1,16 @@
+{
+    "name": "unicode faces",
+    "description": "allow you you to copy and paste unicode faces",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
