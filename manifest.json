@@ -12,5 +12,11 @@
     },
     "background": {
         "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "/images/lenny16px.png",
+        "32": "/images/lenny32px.png",
+        "48": "/images/lenny48px.png",
+        "128": "/images/lenny128px.png"
     }
 }
