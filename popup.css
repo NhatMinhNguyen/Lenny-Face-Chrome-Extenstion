@@ -1,5 +1,18 @@
 button {
     height: 30px;
-    width: 100px;
+    width: 96px;
     outline: none;
+    padding: 1px;
+    margin: 2px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    min-width:400px;
+}
+
+.hidden {
+    display: none;
 }
